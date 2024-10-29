@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receiver</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/reciver.css' %}">
+</head>
+<body>
+  <div class="container">
+    <form action="" class="search" method="get">
+        <input type="text" placeholder="Search the Organ" name="searchname">
+        <button type="submit"> <img src="{% static 'css/search.png' %}" alt=""></button>
+    </form>
+</div>
+     <table class="content-table">
+        <thead>
+          <tr>
+                <th>Sno</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Father Name</th>
+                <th>Mother Name</th>
+                <th>Gender</th>
+                <th>Organ</th>
+                <th>DOB</th>
+                <th>Blood</th>
+                <th>Aadhar Number</th>
+                <th>Email</th>
+                <th>PhNo</th>
+                <th>Emergency No.</th>
+                <th>Address</th>
+          </tr>
+        </thead>
+        {% for r in reciver %}
+        <tbody>
+          <tr>
+            <th>{{forloop.counter}}</th>
+            <td>{{r.firstname}}</td>
+            <td>{{r.lastname}}</td>
+            <td>{{r.fathername}}</td>
+            <td>{{r.mothername}}</td>
+            <td>{{r.gender}}</td>
+            <td>{{r.organ}}</td>
+            <td>{{r.date_of_birth}}</td>
+            <td>{{r.bloodgroup}}</td>
+            <td>{{r.aadharnumber}}</td>
+            <td>{{r.email}}</td>
+            <td>{{r.phonenumber}}</td>
+            <td>{{r.emergencynumber}}</td>
+            <td>{{r.add}}</td>
+          </tr>
+          {% empty %}
+          No Data Found
+          {% endfor %}
+        </tbody>
+      </table>
+</body>
+</html>

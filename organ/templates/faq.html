@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    {% load static %}
+	<link rel="stylesheet" href="{% static 'css/faq.css' %}">
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <img class="logo" src="{% static 'css/1733875-image-1528833688-removebg-preview.png' %}">
+            <ul>
+                <li><a href="{% url 'home-page' %}">Home</a></li>
+                <li><a href="{% url 'about' %}">About</a></li>
+                <li><a class="active" href="">FAQ</a></li>
+                <li><a href="{% url 'contact' %}">Contact</a></li>
+                <li><a href="{% url 'feedback' %}">Feedback</a></li>
+                <li><a href="{% url 'logout' %}">logout</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="mainabout">
+    <div class="about">
+        <div class="abouth">
+            <h1>All that you need to know about Organ Transplants</h1>
+        </div>
+        <div class="qu">
+            <h2>Why do people need transplants?</h2>
+            <p>
+                People who need an organ transplant are usually very ill or dying because an organ is failing. They range from infants and children through to older people. People who need a tissue transplant can also be of any age. In some cases, tissue can save lives. More often, it greatly improves the recipient’s life.
+            </p>
+        </div>
+        <div class="qu">
+            <h2>Is there any alternative to organ transplants?</h2>
+            <p>
+                People in end-stage liver, heart or lung failure will die unless they have a transplant, while people with kidney failure can usually be placed on dialysis until a kidney becomes available. This requires them to have dialysis up to eight hours a day, several days a week.
+            </p>
+        </div>
+        <div class="qu">
+            <h2>How long people wait?</h2>
+            <!-- <h3>Living Donation</h3> -->
+            <p>The longer the delay, the greater is the risk. Waiting time can range between six months to four years but in some cases the recipients may wait for a longer time.</p>
+        </div>
+        <div class="qu">
+            <h3>Are all organs retrieved transplanted?</h3>
+            <p>Everything possible is done to make sure that the wish of the person is fulfilled. Family support/consent for organ donation plays an important role in organ and tissue donation. However, at the time of donation, sometimes organs intended for donation may not be medically suitable for transplant.</p>
+        </div>
+        <div class="qu">
+            <h3>Can I choose who gets my organs and tissues?</h3>
+            <p>Organs and tissues are allocated to transplant recipients in a fair, equitable process that takes no account of race, religion, gender, social status, disability or age – unless age is relevant to the organ matching criteria.
+
+                Waiting lists are managed by the respective state governments and follow the distribution guidelines of National Organ Tissue Transplant Organization (NOTTO). When a family consents to donate organs of their loved one, transplant coordinator passes the necessary information to the state government authority.
+                <br>
+                Criteria used in considering potential organ transplant recipients include:
+                <br>
+                How well the organs match the person
+                How long the person has been waiting for a transplant
+                How urgent the transplant is to be performed
+                Blood group, tissue type and size.</p>
+        </div>
+        <div class="qu">
+            <h3>Is Transplantation always successful?</h3>
+            <p>Transplantation surgery is a complex procedure associated with some risks; however, majority of the recipients greatly benefit from it and lead full and active life. Many hospitals in India including some government hospitals are fully equipped to perform organ transplants.</p>
+        </div>
+        <div class="qu">
+            <h3>Can I sell or buy organs?</h3>
+            <p>No. Buying and selling of organs is illegal in India and a punishable offence as per the Transplantation of Human Organs Act, 1994.</p>
+        </div>
+        <div class="qu">
+            <h3>Why should I discuss about my wish with my family members?</h3>
+            <p>It is important to discuss with your loved ones about your wish to donate organs and tissues after death and this decision will offer hope to others whose lives can be saved or enhanced through organ and tissue transplantation.</p>
+        </div>
+        <div class="qu">
+            <h3>Is there any age limit to donate organs?</h3>
+            <p>There is no set age limit for organ and tissue donation. The potential donor’s organs and tissues are evaluated to determine if they are suitable for transplantation.</p>
+        </div>
+        <div class="qu">
+            <h3>Can I donate my whole body after organ donation?</h3>
+            <p>Anyone that wishes to donate organs and tissues can also donate his/her whole body for medical research but generally, whole body donations are used for dissection by medical students to learn anatomy of the human body, while organ donation is to save lives.There might be some circumstances that may exclude a donor from donating whole body.</p>
+        </div>
+        <div class="qu">
+            <h3>Will my decision to become a donor affect the quality of medical care that I receive?</h3>
+            <p>Organ and tissue donation come into picture only after all the efforts to save the life of the patient have been exhausted. The doctors in intensive care that work to save your life are not in any way connected to the medical team involved in transplantation.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>

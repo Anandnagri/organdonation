@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {% load static %}
+	<link rel="stylesheet" href="{% static 'css/about.css' %}">
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <img class="logo" src="{% static 'css/1733875-image-1528833688-removebg-preview.png' %}">
+            <ul>
+                <li><a href="{% url 'home-page' %}">Home</a></li>
+                <li><a class="active" href="">About</a></li>
+                <li><a href="{% url 'faq' %}">FAQ</a></li>
+                <li><a href="{% url 'contact' %}">Contact</a></li>
+                <li><a href="{% url 'feedback' %}">Feedback</a></li>
+                <li><a href="{% url 'logout' %}">logout</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="mainabout">
+    <div class="about">
+        <div class="abouth">
+            <h1>What is Organ Donation?</h1>
+        </div>
+        <div class="qu">
+            <h2>What is Organ Donation?</h2>
+            <p>
+                Organ donation is giving an organ to help someone who needs a transplant. Transplants can save or greatly enhance the lives of other people. But this relies on donors and their families agreeing to donate their organs.Need for Organ Donation
+            </p>
+        </div>
+        <div class="qu">
+            <h2>Need for Organ Donation</h2>
+            <p>
+                Shortage of organs is a universal problem and is more prevalent in Asian countries than the rest of the world. Organ donation rate in India is abysmally low at 0.5 per million persons. Virtually, all the natural deaths can be converted into corneal/eye donations and corneal blindness can be driven away. More than 70% of patients succumbing to ccidents are brain dead and can be potential organ donors. There are about 50,000 people dying every day in India where every organ and tissue can be harvested and transplanted but India has innumerable patients that cannot find a donor and are waiting for a second chance of life.</p>
+        </div>
+        <div class="qu">
+            <h2>Types of Organ donation</h2>
+            <div class="qufirst">
+            <h3>Living Donation</h3>
+            <p>A person can choose to donate organs and tissue when he/she is alive. Kidneys and a part of liver are the most common organs donated by the living persons. Most of the living donors are close relatives to the recipients called living related donation. When a person donates kidney or part of liver to a person he is not related is called live unrelated donation. However, this type of donation needs permission from the government and there should be no financial transactions between the donor and recipient.</p>
+        </div>
+        <div class="qufirst">
+            <h3>Donation after Brain Death</h3>
+            <p>This is a type of deceased organ donation that happens once a person is declared brain death. When a person suffers severe brain injury and no longer has any activity in brain stem and has permanently lost the potential consciousness and capacity to breathe. The circulation continues with the support of artificial ventilation through a device called ventilator. Heart beating donations have a high success rate as the blood flow/oxygenation is continued to the vital organs till they are harvested for a transplant. Such a person can donate organs and tissues which can save other’s lives. However, this is only possible with the consent of the family members.</p>
+        </div>
+        <div class="qufirst">
+            <h3>Donation after Circulatory Death</h3>
+            <p>This is a type of deceased organ donation that happens after cardiac arrest from which the patient cannot or should not be resuscitated. This type of donation is still not prominently practiced in India and also needs legal clarity.</p>
+        </div>
+        <div class="qufirst">
+            <h3>Deceased Organ Donation Program in India</h3>
+            <p>The Transplantation of Human Organs Act was enacted in 1994 and many states adopted the act in the next few years but there was hardly any work that was done towards implementing deceased organ donation program. In a few states, like minded medical professionals and philanthropists came together to take the initiative forward. The states of Tamil Nadu and Andhra Pradesh came forward with some of the hospitals and MOHAN Foundation, a non-governmental no-for- profit organization, took the lead in setting up an organ sharing network called Indian Network of Organ Sharing (INOS) in the year 2000. This sharing network facilitated the retrieval of a total of1033 organs and tissues in Tamil Nadu. The Transplantation of Human Organs (Amendment) Act 2011 has included the component of tissue donation and registration of tissue banks. It becomes imperative under the changed circumstances to establish National Level Tissue Bank to fulfil the demands of tissue transplantation including activities for procurement, storage and fulfil distribution of biomaterials. National Network division of NOTTO (National Organ Tissue Transplant Organization) was started and would function as apex centre for all India activities of coordination andnetworking for procurement and distribution of Organs and Tissues and registry of Organ and Tissue Donations and Transplantations in the country. Regional Organ and Tissue Transplant Organisation (ROTTO) and State Organ and Tissue Transplant Organisation (SOTTO) all come under the purview of the National Organ and Tissue Transplant Organization (NOTTO).</p>
+        </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

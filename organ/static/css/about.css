@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+	margin: 0;
+}
+body{
+    background-image: url(OrganDonation.jpg);
+    background-size: cover;
+
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgb(69, 19, 19)
+}
+.navbar .logo{
+	width: 100px;
+	height: 50px;
+	padding: 20px 100px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 2px;
+}
+.wrapper .center{
+	position: absolute;
+	/* left: 50%; */
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+
+.mainabout{
+    display: flex;
+    justify-content: center;
+    /* width: 1000px; */
+}
+
+.about{
+    /* background-color: rgba(6, 6, 6, 0.441); */
+    /* box-shadow: rgb(38, 38, 38) 5px 5px 25px; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 1000px;
+}
+.qu{
+    background-color: rgba(6, 6, 6, 0.441);
+    box-shadow: rgb(38, 38, 38) 5px 5px 25px;
+    padding: 15px;
+    margin: 20px;
+}
+.abouth h1{
+    background-color: rgb(116, 44, 44);     
+    margin-top: 100px;
+    color: rgb(254, 255, 255);
+    font-size: 45px;
+    font-family: "Lucida Handwriting","Brush Script MT",Cursive;
+    text-align: center;
+}
+
+.qu{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.qu h2{
+    background-color: #711f1f;
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(177, 197, 197);
+    font-size: 25px;
+    font-family: "Lucida Handwriting","Brush Script MT",Cursive;
+}
+.qu p{
+    text-align: justify;
+    width: 800px;
+    margin-top: 20px;
+    color: rgba(226, 226, 226, 0.842);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.qu h3{
+    background-color: #711f1f;
+    text-align: center;
+    margin-top:  20PX;
+    color: rgb(191, 205, 205);
+    font-size: 20px;
+    font-family: "Lucida Handwriting","Brush Script MT",Cursive;
+}
